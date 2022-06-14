@@ -300,7 +300,6 @@ button.justify-content-center {
 
 /*Footer*/
 .text-reset {
-  color: white !important;
   text-decoration: underline;
   text-decoration-color: red;
 }
@@ -386,7 +385,7 @@ h2::after {
 	background: none;
 }
 .carousel-control-prev i, .carousel-control-next i {
-	font-size: 68px;
+	font-size: 40px;
 	line-height: 42px;
 	position: absolute;
 	display: inline-block;
@@ -446,4 +445,13 @@ i.fa.fa-angle-right {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.message {
+  text-align: center;
+}
+
+
+.carousel .carousel-item {
+  min-height: 200px;
 }
